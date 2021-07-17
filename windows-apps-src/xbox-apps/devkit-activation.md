@@ -10,11 +10,11 @@ ms.localizationpriority: medium
 # Xbox One Developer Mode activation
 
 ## How Developer Mode works
-This article only applies to Xbox One and Xbox Series X | S consoles acquired through retail channels. For development kit HW acquired via a managed development program, see the note at the end of the article.
+This article only applies to Xbox One and Xbox Series X|S consoles acquired through retail channels. For development kit HW acquired via a managed development program, see the note at the end of the article.
 
 Xbox retail consoles can have two modes, Retail Mode (1) and Developer Mode (2). In Retail Mode, the console is in its normal state: you can play games and run apps acquired through the Xbox store. In Developer Mode, you can develop and test software for the console, but you cannot play retail games or run retail apps.
 
-Developer Mode can be enabled on any retail Xbox console, via the “Retail to Dev Kit conversion” app found in the Xbox store. After Developer Mode is enabled on your retail console, you can switch back and forth between Retail (2a) and Developer Modes (2b).
+Developer Mode can be enabled on any retail Xbox console, via the “Retail to Dev Kit conversion” app found in the Xbox store. After Developer Mode is enabled on your retail console, you can switch back and forth between Retail (2a) and Developer Mode (2b).
 
 > [!NOTE]
 > Do not run this conversion app on any Xbox development hardware acquired through an Xbox managed program (for example, ID@Xbox) or you may introduce errors and delays while developing your game. If you're a managed partner, you can get more information on activating development hardware. Go to https://developer.microsoft.com/en-us/games/xbox/docs/gdk/provisioning-role.
@@ -27,47 +27,28 @@ Developer Mode can be enabled on any retail Xbox console, via the “Retail to D
 
 1.	Start your Xbox console.
 
-2.	Search for and install the **Dev Mode Activation** app from the Xbox One store.
+2.	Make sure your console have the latest Xbox system update installed. For more information, please visit [About system updates on Xbox Series X|S and Xbox One](https://support.xbox.com/en-us/help/hardware-network/settings-updates/system-update-overview)
 
-    ![Install the Dev Mode Activation App](images/devkit-activation-1.png)
+3.	Go to **Settings** > **System** > **Console info**.
 
-3.	Launch the app from the Store page.
+    ![Xbox System Console info](images/xbox-settings-console-info.png)
 
-    ![Dev Mode Activation app](images/devkit-activation-2.png)
+4.	On your controller, press **LB**, **RB**, **LT**, **RT**. The Developer settings menu entry will be shown.
 
-4.	Note the code displayed in the Dev Mode Activation app.
+    ![Xbox Developer settings menu entry](images/xbox-developer-settings-menu-entry.png)
 
-    ![Activation Step 5](images/activation-step-5.png)  
+5.	Go to **Developer settings** > Check **Developer mode** > **Continue**. Your Xbox console will restart.
+
+    ![Xbox Developer settings](images/xbox-developer-settings.png)
     
-5.	[Register an app developer account in Partner Center](https://developer.microsoft.com/store/register).  This is also the first step towards publishing your game.
+6.	After restarting, your Xbox will be in Developer Mode.
 
-6.	Sign in to [Partner Center](https://partner.microsoft.com/dashboard) with your valid, current Partner Center app developer account.  If you don't see multiple options in the left hand navigation pane, or don't see the **Create a new app** option in the **Overview** section, the following steps and activation links _will not work_; make sure you fully registered your app developer account from the previous step.
+    ![Xbox Dev Home](images/xbox-dev-home.png)
 
-7.	Go to [partner.microsoft.com/xboxconfig/devices](https://partner.microsoft.com/xboxconfig/devices).
+## Switch back to Retail Mode
+After Developer Mode has been enabled on your console, to switch back to Retail Mode, under **Quick actions**, select **Leave Dev Mode**. This will restart your console in Retail Mode.    
 
-8.	Enter the activation code displayed in the Dev Mode Activation app. You have a limited number of activations associated with your account. After Developer Mode has been activated, Partner Center will indicate you have used one of the activations associated with your account.
-
-    ![Activation Step 8](images/activation-step-8-rs2.png)    
-    
-9.	Click **Agree and activate**. This will cause the page to reload, and you will see your device populate in the table. Terms for the Xbox One Developer Mode Activation Program agreement can be found at [Xbox One Developer Mode Activation Program](/legal/windows/agreements/xbox-one-developer-mode-activation).
-
-10.	After you’ve entered your activation code, your console will display a progress screen for the activation process.  
-    
-11.	After activation has completed, open the Dev Mode Activation app and click **Switch and restart** to go to Developer Mode. Note that this will take longer than usual.
-
-    ![Activation Step 12](images/activation-step-12.png)   
-
-## Switch between Retail and Developer Mode
-After Developer Mode has been enabled on your console, use **Dev Home** to switch between Retail Mode and Developer Mode. To learn more about starting and using Dev Home, see [Introduction to Xbox One tools](introduction-to-xbox-tools.md).
-
-* To switch to Retail Mode, open **Dev Home**. Under **Quick Actions**, select **Leave Dev Mode**. This will restart your console in Retail Mode.    
-
-  ![Activation Step 13](images/activation-step-13-rs4.png)  
+  ![Leave Dev Mode](images/xbox-leave-dev-mode.png)
   
-* To switch to Developer Mode, use the Dev Mode Activation app. Open the app and select **Switch and restart**. This will restart your console in Developer Mode.  
-
-  ![Activation Step 14](images/activation-step-12.png)  
-
 ## See also
-- [Xbox One Developer Mode deactivation](devkit-deactivation.md)
 - [UWP on Xbox One](index.md)
