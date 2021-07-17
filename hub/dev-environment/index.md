@@ -52,6 +52,11 @@ Windows invites you to code as you are. Use whatever coding language or framewor
         Get started building apps using C# and .NET Core.
     :::column-end:::
     :::column:::
+       [![F# icon](../images/fsharp-logo.png)](/dotnet/fsharp/)<br>
+        **[Get started with F#](/dotnet/fsharp/)**<br>
+        Get started building apps using F# and .NET Core.
+    :::column-end:::
+    :::column:::
        [![Docker Desktop for Windows icon](../images/docker-logo.png)](../dev-environment/docker/overview.md)<br>
         **[Get started with Docker Desktop for Windows](../dev-environment/docker/overview.md)**<br>
         Create remote development containers with support from Visual Studio, VS Code, .NET, Windows Subsystem for Linux, or a variety of Azure services.
